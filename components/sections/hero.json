@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "user-ninja"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 180
+    }
+  }
+}

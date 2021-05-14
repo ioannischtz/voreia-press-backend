@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photo-posts",
+      "handler": "photo-post.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photo-posts/count",
+      "handler": "photo-post.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photo-posts/:id",
+      "handler": "photo-post.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/photo-posts",
+      "handler": "photo-post.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photo-posts/:id",
+      "handler": "photo-post.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photo-posts/:id",
+      "handler": "photo-post.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

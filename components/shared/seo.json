@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "shareImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
