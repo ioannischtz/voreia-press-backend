@@ -9,14 +9,12 @@ module.exports = ({ env }) => ({
     },
   },
   email: {
-    email: {
-      provider: 'sendinblue',
-      providerOptions: {
-          sendinblue_api_key: env("SENDINBLUE_API_KEY"),
-          sendinblue_default_replyto: 'voreia.press@gmail.com',
-          sendinblue_default_from: 'voreia.press@gmail.com',
-          sendinblue_default_from_name: 'Voreia Press',
-        },
+    provider: 'sendinblue',
+    providerOptions: {
+      sendinblue_api_key: env("SENDINBLUE_API_KEY"),
+      sendinblue_default_replyto: 'voreia.press@gmail.com',
+      sendinblue_default_from: 'voreia.press@gmail.com',
+      sendinblue_default_from_name: 'Voreia Press',
     },
   },
   // ...

@@ -3,7 +3,7 @@ const forgotPasswordTemplate = require('./email-templates/forgot-password');
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
-  url: 'https://voreia-press-admin.herokuapp.com/',
+  // url: 'https://voreia-press-admin.herokuapp.com/',
   admin: {
     auth: {
       secret: env('ADMIN_JWT_SECRET', '5510bbd3847a12b343795a27f4748a70'),
