@@ -88,6 +88,14 @@
       },
       "type": "string",
       "required": false
+    },
+    "date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "datetime"
     }
   }
 }
