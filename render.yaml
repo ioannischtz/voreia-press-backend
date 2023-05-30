@@ -14,5 +14,5 @@ services:
       - key: MY_HEROKU_URL # Imported from Heroku app
         value: https://voreia-press-admin.herokuapp.com
       - key: NODE_ENV # Imported from Heroku app
-        value: production
+        value: develop
 
