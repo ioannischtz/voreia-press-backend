@@ -11,12 +11,20 @@ services:
     healthCheckPath: /_health
     autoDeploy: false
     envVars:
-      - key: CLOUDINARY_NAME # Imported from Heroku app
-        value: voreiapress
+      - key: CLOUDINARY_NAME
+        sync: false
+      - key: CLOUDINARY_KEY
+        sync: false
+      - key: CLOUDINARY_SECRET
+        sync: false
       - key: NODE_ENV # Imported from Heroku app
         value: production
       - key: DATABASE_URL
         value: postgres://voreiapress_admin:JAgBShk81ZD22zWeYj2qLS1ssD5pvBO5@dpg-chr1vi1mbg5e1f6v8bj0-a/vpresspg
       - key: MY_RENDER_URL
         value: https://voreia-press-admin.onrender.com
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
 
