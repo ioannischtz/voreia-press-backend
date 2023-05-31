@@ -11,8 +11,6 @@ services:
     healthCheckPath: /_health
     autoDeploy: false
     envVars:
-      - key: NODE_VERSION
-        value: ~14.21.3
       - key: CLOUDINARY_NAME # Imported from Heroku app
         value: voreiapress
       - key: NODE_ENV # Imported from Heroku app
