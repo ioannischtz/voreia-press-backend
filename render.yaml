@@ -9,6 +9,7 @@ services:
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
+    region: frankfurt
     autoDeploy: false
     envVars:
       - key: CLOUDINARY_NAME
